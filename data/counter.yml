@@ -1,14 +1,14 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "THE PROOF IS IN THE PUPS!"
 counter_item: 
-  - title: "Happy Clients"
-    number: "250"
+  - title: "Happy Woofers"
+    number: "100+"
 
-  - title: "Projects Completed"
-    number: "100"
+  - title: "Solo Walks Completed"
+    number: "3000+"
 
-  - title: "Cups of coffee"
-    number: "350"
+  - title: "Groups Walks"
+    number: "300+"
 
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "Treats Given"
+    number: "5000+"
