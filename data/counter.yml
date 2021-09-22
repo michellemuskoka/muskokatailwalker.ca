@@ -2,13 +2,13 @@ enable : true
 heading : "THE PROOF IS IN THE PUPS!"
 counter_item: 
   - title: "Happy Woofers"
-    number: "100+"
+    number: "100"
 
   - title: "Solo Walks Completed"
-    number: "3000+"
+    number: "3000"
 
   - title: "Groups Walks"
-    number: "300+"
+    number: "300"
 
   - title: "Treats Given"
-    number: "5000+"
+    number: "5000"
