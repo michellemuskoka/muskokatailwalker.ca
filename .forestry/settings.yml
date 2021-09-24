@@ -7,7 +7,6 @@ sections:
 - type: document
   path: config.toml
   label: Config.toml
-  match: "**/*"
 - type: directory
   path: about
   label: About
@@ -18,7 +17,7 @@ sections:
   label: Data
   create: all
   match: "*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 upload_dir: static/images
 public_path: images
 front_matter_path: ''
