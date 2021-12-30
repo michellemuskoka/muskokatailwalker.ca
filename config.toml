@@ -1,128 +1,103 @@
-baseURL       = "https://muskokatailwalker.ca/"
-languageCode  = "en-us"
-title         = "Muskoka Tail Walker | Dog walking and kennel services"
-theme         = "roxo"
+baseURL = "https://muskokatailwalker.ca/"
+languageCode = "en-us"
 summarylength = 25
-
-# Site Menus
-[menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "About"
-    url     = "about"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Services"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 4
-  [[menu.nav]]
-    name    = "Contact Me"
-    url     = "contact"
-    weight  = 5
-
-# Site Params
+theme = "roxo"
+title = "Muskoka Tail Walker | Dog walking and kennel services"
+[[menu.nav]]
+name = "Home"
+url = ""
+weight = 1
+[[menu.nav]]
+name = "About"
+url = "about"
+weight = 2
+[[menu.nav]]
+name = "Services"
+url = "portfolio"
+weight = 3
+[[menu.nav]]
+name = "Blog"
+url = "blog"
+weight = 4
+[[menu.nav]]
+name = "Contact Me"
+url = "contact"
+weight = 5
 [params]
-  logo = "images/logo.png"
-  dateFormat = "26 FEB 1994"
-  # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
-  # Google Analitycs
-  googleAnalitycsID = "Your ID"
-  # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
-
-  # Contact Form
-  [params.contactForm]
-    placeholder_first_name        = "Michelle"
-    placeholder_last_name         = "Smith"
-    placeholder_email             = "michelle@muskokatailwalker.ca"
-    placeholder_project_type      = "Services Required"
-    placeholder_about_the_project = "About you, your dog, and the services you're interested in"
-    send_message                  = "Send Message"
-
-    [[params.contactForm.projectType]]
-      value = "dw"
-      title  = "Dogwalking"
-    [[params.contactForm.projectType]]
-      value = "dk"
-      title  = "Dog Kenneling"
-  
-  # Navbar Action Button
-  [params.navAction]
-    status  = true
-    name    = "Get in touch"
-    url     = "contact"
-  
-
-  # Banner Section
-  [params.banner]
-    enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "I'm a dedicated Muskoka dog lover."
-    tagline               = "If it woofs, I want to meet them."
-    primary_button        = "See Our Services"
-    primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Me"
-    secondary_button_url  = "contact"
-
-  [params.portfolio]
-    enable    = true
-    title     = "OUR SERVICES"
-    subtitle  = "Taking great care of our furry friend whether on a walk or overnight."
-
-  [params.call_to_action]
-    enable              = true
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
-    primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
-
-  [params.footer]
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = ""
-      phone   = ""
-      email   = "michelle@muskokatailwalker.ca"
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Services"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
-      # Footer Social Media
-      [params.footer.social]
-        title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Facebook"
-          url  = "https://www.facebook.com/muskokatailwalker/"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "https://www.facebook.com/muskokatailwalker/"
-        [[params.footer.social.link]]
-          name = "LinkedIn"
-          url  = "https://ca.linkedin.com/in/michelle-smith-2309b058"
-      # Footer Service
-      [params.footer.service]
-        title       = "I help people:"
-        description = "keep their dog active<br>leave their pet overnight<br>with peace of mind"
+author = "StaticMania"
+dateFormat = "26 FEB 1994"
+description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+formspreeFormUrl = "https://formspree.io/myykjpje"
+googleAnalitycsID = "Your ID"
+logo = "images/logo.png"
+[params.banner]
+background_image = "images/backgrounds/hero-background.jpg"
+enable = true
+heading = "I'm a dedicated Muskoka dog lover."
+primary_button = "See Our Services"
+primary_button_url = "portfolio"
+secondary_button = "Connect with Me"
+secondary_button_url = "contact"
+tagline = "If it woofs, I want to meet them."
+[params.call_to_action]
+background_image = "images/backgrounds/cta-background.jpg"
+enable = true
+primary_button = "Submit Query"
+primary_button_url = "contact"
+secondary_button = "Not Convinced"
+secondary_button_url = "portfolio"
+title = "Let's GO for a WALK!"
+[params.contactForm]
+placeholder_about_the_project = "About you, your dog, and the services you're interested in"
+placeholder_email = "michelle@muskokatailwalker.ca"
+placeholder_first_name = "Michelle"
+placeholder_last_name = "Smith"
+placeholder_project_type = "Services Required"
+send_message = "Send Message"
+[[params.contactForm.projectType]]
+title = "Dogwalking"
+value = "dw"
+[[params.contactForm.projectType]]
+title = "Dog Kenneling"
+value = "dk"
+[params.footer.contactInfo]
+address = ""
+email = "michelle@muskokatailwalker.ca"
+phone = ""
+title = "Contact Info"
+[params.footer.service]
+description = "keep their dog active<br>leave their pet overnight<br>with peace of mind"
+title = "I help people:"
+[params.footer.sitemap]
+title = "Sitemap"
+[[params.footer.sitemap.link]]
+name = "About Company"
+url = "about"
+[[params.footer.sitemap.link]]
+name = "Services"
+url = "portfolio"
+[[params.footer.sitemap.link]]
+name = "Blog"
+url = "blog"
+[[params.footer.sitemap.link]]
+name = "Contact"
+url = "contact"
+[params.footer.social]
+title = "Social Media"
+[[params.footer.social.link]]
+name = "Facebook"
+url = "https://www.facebook.com/muskokatailwalker/"
+[[params.footer.social.link]]
+name = "Instagram"
+url = "https://www.facebook.com/muskokatailwalker/"
+[[params.footer.social.link]]
+name = "LinkedIn"
+url = "https://ca.linkedin.com/in/michelle-smith-2309b058"
+[params.navAction]
+name = "Get in touch"
+status = true
+url = "contact"
+[params.portfolio]
+enable = true
+subtitle = "Taking great care of our furry friend whether on a walk or overnight."
+title = "OUR SERVICES"
