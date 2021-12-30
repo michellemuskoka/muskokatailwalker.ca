@@ -1,5 +1,5 @@
 ---
-title: "30 MINUTE LET OUT/PLAY"
+title: "30 MINUTE LET OUT/PLAY - $16 per visit"
 date: 2019-12-23T15:44:46+06:00
 type: portfolio
 image: "images/projects/project-thumb-three.jpg"
