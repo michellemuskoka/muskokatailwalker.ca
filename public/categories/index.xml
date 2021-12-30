@@ -5,6 +5,10 @@
     <link>https://muskokatailwalker.ca/categories/</link>
     <description>Recent content in Categories on Muskoka Tail Walker | Dog walking and kennel services</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://muskokatailwalker.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://muskokatailwalker.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
