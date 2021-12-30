@@ -7,6 +7,6 @@ category: ["DOG BOARDING"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 
-With overnight boarding, we will take care of your dog overnight and for up to 24 hours total. Pickup and dropoff available for an additional $10 for each trip.
+With overnight boarding, we will take care of your dog overnight while you are away for short getaways or extended vacations. Pickup and dropoff available for an additional $10 for each trip.
 
 
